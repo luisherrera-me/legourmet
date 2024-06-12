@@ -3,7 +3,7 @@ from presentation.HomeScreen.HomeScreen import HomeScreen
 from presentation.WelcomeScreen import WelcomeScreen
 
 
-def main(page: ft.Page):
+async def main(page: ft.Page):
     page.route = "/"
 
     def route_change(route):

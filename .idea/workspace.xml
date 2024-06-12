@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2249873-c5ea-49b6-9f93-fec6521dcdfc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/presentation/HomeScreen/HomeScreen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presentation/WelcomeScreen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/legourmet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/legourmet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f2249873-c5ea-49b6-9f93-fec6521dcdfc" name="Changes" comment="Merge branch 'main' of https://github.com/AprendeIngenia/legourmet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/WelcomeScreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/WelcomeScreen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Santiago Sanchez Rios &lt;85022752+aprendeingenia@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -112,15 +114,70 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718076899287</updated>
-      <workItem from="1718172185410" duration="5740000" />
+      <workItem from="1718172185410" duration="8313000" />
     </task>
+    <task id="LOCAL-00001" summary="navegación entre las pantallas">
+      <option name="closed" value="true" />
+      <created>1718178046398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718178046398</updated>
+    </task>
+    <task id="LOCAL-00002" summary="navegación entre las pantallas">
+      <option name="closed" value="true" />
+      <created>1718178058917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718178058917</updated>
+    </task>
+    <task id="LOCAL-00003" summary="navegación entre las pantallas">
+      <option name="closed" value="true" />
+      <created>1718178090695</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718178090695</updated>
+    </task>
+    <task id="LOCAL-00004" summary="navegación entre las pantallas">
+      <option name="closed" value="true" />
+      <created>1718178118352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718178118352</updated>
+    </task>
+    <task id="LOCAL-00005" summary="navegación entre las pantallas">
+      <option name="closed" value="true" />
+      <created>1718178125539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718178125539</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge branch 'main' of https://github.com/AprendeIngenia/legourmet">
+      <option name="closed" value="true" />
+      <created>1718178337000</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718178337000</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge pull request #2 from AprendeIngenia/feat/gui&#10;&#10;start front" />
+    <MESSAGE value="navegación entre las pantallas" />
+    <MESSAGE value="Merge branch 'main' of https://github.com/AprendeIngenia/legourmet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/AprendeIngenia/legourmet" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/legourmet$main.coverage" NAME="main Coverage Results" MODIFIED="1718177919839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/legourmet$main.coverage" NAME="main Coverage Results" MODIFIED="1718207305631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/legourmet$WelcomeScreen.coverage" NAME="WelcomeScreen Coverage Results" MODIFIED="1718175867464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/presentation" />
   </component>
 </project>
