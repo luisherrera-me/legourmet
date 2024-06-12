@@ -1,40 +1,20 @@
 import flet as ft
+from presentation.HomeScreen.HomeScreen import HomeScreen
+from presentation.WelcomeScreen import WelcomeScreen
 
 
 def main(page: ft.Page):
-    page.title = "LEGOURMET"
-    page.vertical_alignment = ft.MainAxisAlignment.CENTER
+    page.route = "/"
 
-    txt_number = ft.TextField(value="0", text_align=ft.TextAlign.RIGHT, width=100)
-
-    def minus_click(e):
-        txt_number.value = str(int(txt_number.value) - 1)
+    def route_change(route):
+        page.views.clear()
+        if page.route == "/":
+            page.views.append(WelcomeScreen(page))
+        elif page.route == "/Home":
+            page.views.append(HomeScreen(page))
         page.update()
 
-    def plus_click(e):
-        txt_number.value = str(int(txt_number.value) + 1)
-        page.update()
+    page.on_route_change = route_change
+    page.go(page.route)
 
-    def hola(e):
-        txt_number.value = 'hola'
-        page.update()
-
-    def chao(e):
-        txt_number.value = 'chao'
-        page.update()
-
-    page.add(
-        ft.Row(
-            [
-                ft.IconButton(ft.icons.SMART_BUTTON, on_click=minus_click),
-                txt_number,
-                ft.IconButton(ft.icons.ADD, on_click=plus_click),
-                ft.IconButton(ft.icons.RADIO_BUTTON_ON, on_click=hola),
-                ft.IconButton(ft.icons.SMART_BUTTON_ROUNDED, on_click=chao),
-            ],
-            alignment=ft.MainAxisAlignment.CENTER,
-        )
-    )
-
-
-ft.app(main)
+ft.app(target=main)
